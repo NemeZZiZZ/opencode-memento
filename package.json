@@ -1,0 +1,36 @@
+{
+  "name": "opencode-memento",
+  "version": "1.0.0",
+  "description": "Amnesia insurance for OpenCode: injects your project's Markdown memory index into session compaction, so auto-summarization never forgets that memory exists. Zero dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --experimental-strip-types --test \"test/*.test.ts\""
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "memory",
+    "compaction",
+    "markdown",
+    "context",
+    "amnesia"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NemeZZiZZ/opencode-memento.git"
+  },
+  "author": "NemeZZiZZ",
+  "bugs": {
+    "url": "https://github.com/NemeZZiZZ/opencode-memento/issues"
+  },
+  "homepage": "https://github.com/NemeZZiZZ/opencode-memento#readme"
+}
