@@ -1,5 +1,12 @@
 # opencode-memento
 
+> **MOVED — this repository is archived and read-only.**
+> Development continues in the **leonard-memento** family monorepo:
+> **[NemeZZiZZ/leonard-memento](https://github.com/NemeZZiZZ/leonard-memento)**
+> (`opencode-memento@1.1.0+`, plus `claude-code-memento` and `codex-memento`).
+> `opencode-memento@1.0.0` stays on npm as-is; install the latest with
+> `npm i opencode-memento@latest`.
+
 **Amnesia insurance for [OpenCode](https://opencode.ai).**
 
 When OpenCode auto-compacts a session, the summarizer only keeps what it is shown. `opencode-memento` is a zero-dependency plugin that injects your project's Markdown memory index into the compaction prompt — so the moment your context is rebuilt, your long-term memory is rebuilt with it. Your coding agent gets Total Recall without a trip to Rekall.
